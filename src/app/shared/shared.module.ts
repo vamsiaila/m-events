@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     CommonModule
   ],
-  declarations: [MainNavbarComponent, FooterComponent]
+  declarations: [MainNavbarComponent, FooterComponent],
+  exports:[MainNavbarComponent]
 })
 export class SharedModule { }
