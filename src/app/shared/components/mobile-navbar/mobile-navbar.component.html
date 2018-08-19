@@ -1,4 +1,8 @@
   <div class="header" [ngClass]="{'menu-opened': isOpen}">
+    <div class="float-right logo-outer">
+        <img src="../../../../assets/images/logo.PNG" *ngIf="isOpen" class="image-fluid logo" alt="M Events">
+        <img src="../../../../assets/images/mobNav.png" *ngIf="isOpen==false" class="image-fluid mlogo" alt="M Events">
+    </div>
     <div class="burger-container">
       <div id="burger" (click)="toggleMenu()">
         <div class="bar topBar"></div>
