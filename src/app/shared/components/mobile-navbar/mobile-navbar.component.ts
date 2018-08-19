@@ -11,13 +11,17 @@ export class MobileNavbarComponent implements OnInit {
 
   constructor() { }
 
+  isOpen=false;
+  menuOpen(){
+    if(this.isOpen){
+      this.isOpen = false;
+    }else{
+      this.isOpen = true;
+    }
+  }
+
   ngOnInit() {
 
-    $('.toggle').on('click', function(e) {
-      $('.wrapper').toggleClass('open');
-    
-      e.preventDefault();
-    });
   }
 
 }
