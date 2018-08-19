@@ -18,7 +18,7 @@ export class MobileNavbarComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    
   }
 
 }
