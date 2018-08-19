@@ -53,31 +53,6 @@
   -webkit-transform: translateY(6px) rotate(0deg);
           transform: translateY(6px) rotate(0deg);
 }
-.header .icon {
-  display: inline-block;
-  position: absolute;
-  height: 100%;
-  line-height: 50px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  color: #FFF;
-  font-size: 22px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-}
-.header .icon.icon-bag {
-  right: 0;
-  top: 0;
-  left: auto;
-  -webkit-transform: translateX(0px);
-          transform: translateX(0px);
-  transition: -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-  transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-  transition: transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99), -webkit-transform 0.5s cubic-bezier(0.4, 0.01, 0.165, 0.99);
-  transition-delay: 0.65s;
-}
 .header ul.menu {
   position: relative;
   display: block;
@@ -128,7 +103,7 @@
   width: 100%;
 }
 .header.menu-opened {
-  height: 100%;
+  min-height: 100%;
   background-color: #000;
   transition: all 0.3s ease-in, background 0.5s ease-in;
   transition-delay: 0.25s;
@@ -174,32 +149,4 @@
 }
 .header.menu-opened ul.menu li.menu-item:nth-child(7) {
   transition-delay: 0.69s;
-}
-.header.menu-opened .icon.icon-bag {
-  -webkit-transform: translateX(75px);
-          transform: translateX(75px);
-  transition-delay: 0.3s;
-}
-.content {
-  font-family: "Ek Mukta", sans-serif;
-  padding: 67px 4% 0;
-  text-align: justify;
-  overflow: scroll;
-  max-height: 100%;
-}
-.content::-webkit-scrollbar {
-  display: none;
-}
-.content h2 {
-  margin-bottom: 0px;
-  letter-spacing: 1px;
-}
-.content img {
-  width: 95%;
-  position: relative;
-  display: block;
-  margin: 75px auto 75px;
-}
-.content img:nth-of-type(2) {
-  margin: 75px auto;
 }
