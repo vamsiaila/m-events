@@ -65,7 +65,7 @@
   list-style: none;
 }
 .header ul.menu li.menu-item {
-  /* border-bottom: 1px solid rgb(99, 87, 201); */
+  border-bottom: 1px solid rgb(99, 87, 201);
   margin-top: 5px;
   -webkit-transform: scale(1.15) translateY(-30px);
           transform: scale(1.15) translateY(-30px);
@@ -104,6 +104,9 @@
   line-height: 2.35;
   font-weight: 200;
   width: 100%;
+}
+.header ul.menu li.menu-item a:hover{
+    color: rgb(23, 163, 42)
 }
 .header.menu-opened {
   height: 100%;
