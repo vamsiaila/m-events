@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Ek+Mukta:200);
 
 .header {
-  position: absolute;
+  position: fixed;
   display: block;
   top: 0;
   left: 0;
   height: 50px;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
-  overflow: hidden;
+  overflow-y: auto;
   transition: all 0.5s ease-out, background 1s ease-out;
   transition-delay: 0.2s;
   z-index: 1;
@@ -103,7 +103,7 @@
   width: 100%;
 }
 .header.menu-opened {
-  min-height: 100%;
+  height: 100%;
   background-color: #000;
   transition: all 0.3s ease-in, background 0.5s ease-in;
   transition-delay: 0.25s;
@@ -150,3 +150,5 @@
 .header.menu-opened ul.menu li.menu-item:nth-child(7) {
   transition-delay: 0.69s;
 }
+
+
