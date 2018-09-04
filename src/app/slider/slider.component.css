@@ -1,0 +1,35 @@
+.carousel-item{
+    height: 100vh;
+    overflow: hidden;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -o-background-attachment: fixed;
+}
+#slider-1{
+    background-image: url('https://lh3.googleusercontent.com/-3ybCFPXKAhA/Ve86-gENZ0I/AAAAAAAAADA/Z5rlXyjVI1o/w1920-h1080/contour%2Bresort%2Bwedding%2Bstage%2Bpentecostal.jpg')
+}
+#slider-2{
+    background-image: url('http://www.imajh.com/wp-content/uploads/2016/01/gallery-corporate_event-23.jpg')
+}
+#slider-3{
+    background-image: url('https://www.creativiva.com/wp-content/uploads/2016/05/decor-blog-1.jpg')
+}
+#slider-4{
+    background-image: url('https://i.pinimg.com/originals/26/c8/45/26c84539cd75ba32fd292ac316fbfdc1.jpg')
+}
+.dialog{
+    margin-top: 150px;
+    height:auto;
+    width: 80%;
+    background-color: rgba(255, 255, 255,0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 50px;
+}

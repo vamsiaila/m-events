@@ -5,10 +5,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './/app-routing.module';
+import { SliderComponent } from './slider/slider.component';
+import { HomeComponent } from './home/home.component';
+import { MainComponent } from './main/main.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SliderComponent,
+    HomeComponent,
+    MainComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
