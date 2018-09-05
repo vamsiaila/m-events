@@ -1,5 +1,26 @@
-<div class="container-fluid outer">
-  <h1 class="text-center section-title">
-    Our Services
+<div class="container-fluid outer parallax-window" data-parallax="scroll" data-image-src="https://www.fantasize.nl/wp-content/uploads/2017/07/Blauwe-Gerrit1.jpeg">
+  <h1 class="text-center">
+    WHAT WE DO
   </h1>
+  <br>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-6 panel-out" *ngFor="let x of services">
+            <div class="service-box"  [ngStyle]="{'background-image': 'url(' + x.background + ')'}">
+                <div class="service-icon ">
+                    <div class="front-content">
+                        <h3>{{x.title}}</h3>
+                    </div>
+                </div>
+                <div class="service-content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and
+                       typesetting industry. Lorem Ipsum has been the industry's
+                        standard dummy text ever since the 1500s, when an unknown
+                         printer took a galley of type and scrambled it to make
+                          a type specimen book. It has survived not only five centuries</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </div>

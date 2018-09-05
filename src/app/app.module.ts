@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main/main.component';
 import { AdminComponent } from './admin/admin.component';
 import { ServicePanelsComponent } from './service-panels/service-panels.component';
+import { GoalsComponent } from './goals/goals.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ServicePanelsComponent } from './service-panels/service-panels.componen
     HomeComponent,
     MainComponent,
     AdminComponent,
-    ServicePanelsComponent
+    ServicePanelsComponent,
+    GoalsComponent
   ],
   imports: [
     BrowserModule,

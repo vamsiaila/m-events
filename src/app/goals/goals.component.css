@@ -1,0 +1,10 @@
+.outer{
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+h1{
+    color: #fff;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    font-weight: 900;
+}
