@@ -9,6 +9,7 @@ import { SliderComponent } from './slider/slider.component';
 import { HomeComponent } from './home/home.component';
 import { MainComponent } from './main/main.component';
 import { AdminComponent } from './admin/admin.component';
+import { ServicePanelsComponent } from './service-panels/service-panels.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AdminComponent } from './admin/admin.component';
     SliderComponent,
     HomeComponent,
     MainComponent,
-    AdminComponent
+    AdminComponent,
+    ServicePanelsComponent
   ],
   imports: [
     BrowserModule,
