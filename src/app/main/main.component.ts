@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
-  constructor() { }
+  width;
+  constructor() { 
+    this.width = window.screen.width;
+    console.log(this.width)
+  }
 
   ngOnInit() {
   }
