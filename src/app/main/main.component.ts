@@ -10,7 +10,6 @@ export class MainComponent implements OnInit {
   width;
   constructor() { 
     this.width = window.screen.width;
-    console.log(this.width)
   }
 
   ngOnInit() {

@@ -70,6 +70,22 @@ p{
     95%{opacity: 0; left: -600px;}
 }
 
+.form-box{
+    height: 500px;
+    position: absolute;
+    margin-top: 150px;
+    z-index: 10;
+    padding: 0px;
+    padding-top: 20px;
+}
+.box-inner{
+    width: 500px;
+    height:450px;
+    float: right;
+    background-color: rgba(8, 2, 83, 0.9);
+    border-radius: 50px 0 0 50px;
+}
+
 @media only screen and (max-width:720px){
     .active .box{
         width: 300px;

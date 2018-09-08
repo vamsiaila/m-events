@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./slider.component.css']
 })
 export class SliderComponent implements OnInit {
-
-  constructor() { }
+  
+  width;
+  constructor() { 
+    this.width = window.screen.width;
+  }
 
   ngOnInit() {
   }
