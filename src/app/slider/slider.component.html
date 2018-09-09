@@ -1,7 +1,7 @@
-<div class="container-fluid form-box">
-      <div class="container box-inner" *ngIf="width>720">
-        <app-callback>  </app-callback>
-      </div>
+<div class="container-fluid form-box" *ngIf="width>720">
+    <div class="animated tada container box-inner">
+      <app-callback></app-callback>
+    </div>
 </div>
 <div id="carouselExampleFade" data-pause="false" data-interval="6000" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
