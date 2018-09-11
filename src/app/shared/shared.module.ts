@@ -10,7 +10,7 @@ import { ToasterService } from './services/toaster.service';
     CommonModule
   ],
   declarations: [MainNavbarComponent, FooterComponent, MobileNavbarComponent],
-  exports:[MainNavbarComponent,MobileNavbarComponent],
+  exports:[MainNavbarComponent,MobileNavbarComponent,FooterComponent],
   providers:[
     ToasterService
   ]

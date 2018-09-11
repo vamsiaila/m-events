@@ -1,0 +1,100 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css");
+.outer{
+    /* height: 200px; */
+    background-color: rgb(63, 63, 63);
+    background-image: url('http://designwoop.com/uploads/2012/03/19_free_subtle_textures_3px_tile.jpg')
+}
+
+h4 { 
+    font-family: 'Merienda', cursive;
+    text-decoration: underline;
+    font-weight: 400; 
+    color: white;
+    }
+p { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.bord{
+    border-left: 3px solid gray;
+}
+
+.button-wrap {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  /* margin: 25px 50px 0; */
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 100%;
+  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.button-wrap.facebook {
+  background-color: #3B5998;
+}
+.button-wrap.facebook i.active {
+  color: #3B5998;
+}
+.button-wrap.twitter {
+  background-color: #0AC;
+}
+.button-wrap.twitter i.active {
+  color: #0AC;
+}
+.button-wrap.pinterest {
+  background-color: #CD2129;
+}
+.button-wrap.pinterest i.active {
+  color: #CD2129;
+}
+.button-wrap.dribbble {
+  background-color: #F26798;
+}
+.button-wrap.dribbble i.active {
+  color: #F26798;
+}
+.button-wrap:hover .button-inner-wrap {
+  width: 35px;
+  height: 35px;
+}
+.button-wrap:hover .button-inner-wrap i.inactive {
+  -webkit-transform: translate(100px, -50%);
+          transform: translate(100px, -50%);
+}
+.button-wrap:hover .button-inner-wrap i.active {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.button-inner-wrap {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid #DDD; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  overflow: hidden;
+  background-color: #FFF;
+  border-radius: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.button-inner-wrap i {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.button-inner-wrap i.inactive { 
+  color: rgb(63, 63, 63);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.button-inner-wrap i.active {
+  -webkit-transform: translate(-150px, -50%);
+          transform: translate(-150px, -50%);
+}

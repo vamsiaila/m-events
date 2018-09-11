@@ -45,8 +45,9 @@ p{
     animation-fill-mode: forwards;
 }
 .active .box p{
-    font-family: 'Jua', cursive;
-    font-size: 1.5rem;
+    /* font-family: 'Jua', cursive; */
+    font-family: 'Merienda', cursive;
+    font-size: 1.7rem;
     position: relative;
     color: black;
     /* font-weight: 600; */
@@ -92,7 +93,7 @@ p{
         padding: 10px;
     }
     .active .box p{
-        font-size: 1.4rem;
+        font-size: 1.55rem;
     }
 }
 
