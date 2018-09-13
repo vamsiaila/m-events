@@ -12,6 +12,7 @@ import { AdminComponent } from './admin/admin.component';
 import { ServicePanelsComponent } from './service-panels/service-panels.component';
 import { GoalsComponent } from './goals/goals.component';
 import { CallbackComponent } from './callback/callback.component';
+import { SliderminiComponent } from './slidermini/slidermini.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CallbackComponent } from './callback/callback.component';
     AdminComponent,
     ServicePanelsComponent,
     GoalsComponent,
-    CallbackComponent
+    CallbackComponent,
+    SliderminiComponent
   ],
   imports: [
     BrowserModule,
