@@ -2,3 +2,7 @@
 @import 'https://fonts.googleapis.com/css?family=Jua';
 @import url('https://fonts.googleapis.com/css?family=Merienda');
 @import '~animate.css/animate.min.css';
+
+.app-font{
+    font-family: 'Merienda', cursive;
+}

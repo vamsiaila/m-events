@@ -1,0 +1,45 @@
+.outer{
+    min-height: 100vh;
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.inner{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.btn-dark{
+    background-color: #EAF0F1;
+    height:60px;
+    font-size: 20pt;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Merienda', cursive;
+    border: 1px solid rgb(107, 106, 106);
+}
+.btn-dark:hover{
+    background-color: rgb(37, 37, 37);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: 'Merienda', cursive;
+    border: 1px solid rgb(107, 106, 106);
+}
+.list-group-item{
+    color: #fff;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    font-weight: 900;
+    background-color: #2F363F;
+    cursor: pointer;
+}
+.form-control{
+    height: 50px;
+    padding: 10px;
+}

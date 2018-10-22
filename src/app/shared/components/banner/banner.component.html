@@ -1,0 +1,66 @@
+<div class="container-fluid outer parallax-window" data-parallax="scroll" data-image-src="http://s3.amazonaws.com/ht-images.couchsurfing.com/u/2082947/3697b340-3b30-49bb-a137-d5bd843f35d2">
+<div class="container">
+  <h1 class="text-center app-font" data-aos="fade-down" data-aos-duration="2000">
+    The New Way To Plan Your Events And Weddings
+  </h1>
+  <br>
+
+  <div class="row inner">
+    <div class="col-md-6 col-12 p-2">
+      <button class="btn btn-dark col-12" data-toggle="modal" data-target="#whatyouneed">What You Need</button>
+    </div>
+    <div class="col-md-6 col-12 p-2">
+      <button class="btn btn-dark col-12" data-toggle="modal" data-target="#callback">Call Back</button>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="whatyouneed" tabindex="-1" role="dialog" aria-labelledby="whatyouneedLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title app-font" id="whatyouneedLabel">Tell Us What You Need</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group">
+          <li class="list-group-item text-white app-font" *ngFor="let service of services">{{service.title}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="callback" tabindex="-1" role="dialog" aria-labelledby="callbackLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title app-font" id="callbackLabel">Request Call Back</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="form-group">
+            <input type="text" placeholder="Full Name" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Email (optional)" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Mobile Number" class="form-control">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
