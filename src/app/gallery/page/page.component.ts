@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
+  selector: 'app-page',
+  templateUrl: './page.component.html',
+  styleUrls: ['./page.component.scss']
 })
-export class AboutComponent implements OnInit {
+export class PageComponent implements OnInit {
 
   constructor() { }
 
@@ -13,5 +13,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
   }
+
+  testings=[1,2,3,4,5,6];
 
 }

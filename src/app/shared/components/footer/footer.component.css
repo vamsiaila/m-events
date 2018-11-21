@@ -1,100 +1,118 @@
-@import url("//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css");
-.outer{
-    /* height: 200px; */
-    background-color: rgb(63, 63, 63);
-    background-image: url('http://designwoop.com/uploads/2012/03/19_free_subtle_textures_3px_tile.jpg')
+
+/*FOOTER*/
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+  background: linear-gradient(59deg, #3A6073, #16222A);
+  color: white;
 }
 
-h4 { 
-    font-family: 'Merienda', cursive;
-    text-decoration: underline;
-    font-weight: 400; 
-    color: white;
-    }
-p { 
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: white;
-}
-.bord{
-    border-left: 3px solid gray;
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
 }
 
-.button-wrap {
-  width: 50px;
-  height: 50px;
-  position: relative;
-  display: inline-block;
-  /* margin: 25px 50px 0; */
-  margin: 10px;
-  cursor: pointer;
-  border-radius: 100%;
-  box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.3);
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
 }
-.button-wrap.facebook {
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
   background-color: #3B5998;
 }
-.button-wrap.facebook i.active {
-  color: #3B5998;
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
 }
-.button-wrap.twitter {
-  background-color: #0AC;
-}
-.button-wrap.twitter i.active {
-  color: #0AC;
-}
-.button-wrap.pinterest {
-  background-color: #CD2129;
-}
-.button-wrap.pinterest i.active {
-  color: #CD2129;
-}
-.button-wrap.dribbble {
-  background-color: #F26798;
-}
-.button-wrap.dribbble i.active {
-  color: #F26798;
-}
-.button-wrap:hover .button-inner-wrap {
-  width: 35px;
-  height: 35px;
-}
-.button-wrap:hover .button-inner-wrap i.inactive {
-  -webkit-transform: translate(100px, -50%);
-          transform: translate(100px, -50%);
-}
-.button-wrap:hover .button-inner-wrap i.active {
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+.social-network a.icoYoutube:hover {
+  background-color: #a00707;
 }
 
-.button-inner-wrap {
-  width: 50px;
-  height: 50px;
-  /* border: 1px solid #DDD; */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  overflow: hidden;
-  background-color: #FFF;
-  border-radius: 100%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  transition: all 0.3s ease;
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoYoutube:hover i {
+  color: #fff;
 }
-.button-inner-wrap i {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  font-size: 20px;
-  transition: all 0.3s ease;
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
 }
-.button-inner-wrap i.inactive { 
-  color: rgb(63, 63, 63);
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
 }
-.button-inner-wrap i.active {
-  -webkit-transform: translate(-150px, -50%);
-          transform: translate(-150px, -50%);
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
 }

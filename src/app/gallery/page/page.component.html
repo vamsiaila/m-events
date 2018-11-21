@@ -1,0 +1,24 @@
+<div class="outer container-fluid"  [style.background]="'url(' + bgImg + ')'">
+  <h2 class="app-font text-center">Events gallery</h2>
+  <hr>
+  <div class="container-all row">
+  <div class="container col-md-4 col-12" *ngFor="let test of testings">
+    <img src="http://www.visualizee.com/visualevents/vijay/kodf.png" alt="">
+      <span class="title app-font">Lorem ipsum dolor</span>
+    <span class="text">
+      <div class="row">
+        <div class="col p-2">
+          <span class="btn img-btn"><i class="far fa-heart"></i>&nbsp;Like</span>
+        </div>
+        <div class="col p-2">
+          <span class="btn img-btn"><i class="far fa-save"></i>&nbsp;Save</span>
+        </div>
+        <div class="col p-2">
+          <span class="btn img-btn"><i class="fas fa-share-alt"></i>&nbsp;Share</span>
+        </div>
+      </div>
+    </span>
+  </div>
+  </div>
+  &nbsp;
+</div>

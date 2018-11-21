@@ -1,0 +1,11 @@
+<div class="row">
+  <div class="card shadow card-trainings text-white col-md-4 col-12 p-0" *ngFor="let service of services" style="cursor:pointer;" [routerLink]="service.title">
+    <img class="card-img" [src]="service.background" alt="Card image">
+    <div class="card-img-overlay d-flex flex-column justify-content-center">
+      <h3 class="card-title app-font">{{service.title}}</h3>
+      <div class="card-body">
+          <h3 class="app-font">Click For Details</h3>
+      </div>
+    </div>
+  </div>
+</div>

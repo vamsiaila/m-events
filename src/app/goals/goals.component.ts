@@ -12,7 +12,7 @@ export class GoalsComponent implements OnInit {
     this.width = window.screen.width;
   }
 
-  bgImg="https://www.desktopbackground.org/download/o/2013/09/12/637424_plain-coloured-backgrounds-wallpapers-zone_1024x768_h.png";
+  bgImg="https://www.apmsolutions.ca/wp-content/uploads/2017/03/background-image-of-web-design-meeting.png";
 
   ngOnInit() {
   }

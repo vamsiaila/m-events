@@ -1,18 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-banner',
-  templateUrl: './banner.component.html',
-  styleUrls: ['./banner.component.scss']
+  selector: 'app-main-services',
+  templateUrl: './main-services.component.html',
+  styleUrls: ['./main-services.component.scss']
 })
-export class BannerComponent implements OnInit {
+export class MainServicesComponent implements OnInit {
 
   constructor() { }
 
   ngOnInit() {
   }
-
-  bgImg="https://static1.squarespace.com/static/5a25180d692ebe5d29568cc3/t/5a4b682d652deacfab1375e1/1514891316873/Captain-Digby-Broadstairs-Main-Background.jpg";
 
   services=[
     {title:'Wedding Events', description:'', background:'https://timeskerala.com/wp-content/uploads/2017/10/50747Love-Marriage-Specialist.png'},
