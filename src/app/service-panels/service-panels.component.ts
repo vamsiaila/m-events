@@ -14,6 +14,8 @@ export class ServicePanelsComponent implements OnInit {
 
   }
 
+  bgImg="http://iasipstnpsc.in/wp-content/uploads/2017/01/abstract-background-design_1297-73.jpg";
+
   services=[
     {title:'Wedding Events', description:'', background:'https://timeskerala.com/wp-content/uploads/2017/10/50747Love-Marriage-Specialist.png'},
     {title:'Birthdays', description:'', background:'http://royalpalmocc.com.sg/wp-content/uploads/2017/03/Events-Birthday-Parties.png'},

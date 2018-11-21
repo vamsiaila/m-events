@@ -13,6 +13,8 @@ import { ServicePanelsComponent } from './service-panels/service-panels.componen
 import { GoalsComponent } from './goals/goals.component';
 import { CallbackComponent } from './callback/callback.component';
 import { SliderminiComponent } from './slidermini/slidermini.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SliderminiComponent } from './slidermini/slidermini.component';
     ServicePanelsComponent,
     GoalsComponent,
     CallbackComponent,
-    SliderminiComponent
+    SliderminiComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

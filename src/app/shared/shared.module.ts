@@ -6,10 +6,12 @@ import { MobileNavbarComponent } from './components/mobile-navbar/mobile-navbar.
 import { ToasterService } from './services/toaster.service';
 import { OverlayComponent } from './components/overlay/overlay.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   declarations: [
     MainNavbarComponent, 

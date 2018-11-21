@@ -12,6 +12,8 @@ export class BannerComponent implements OnInit {
   ngOnInit() {
   }
 
+  bgImg="http://s3.amazonaws.com/ht-images.couchsurfing.com/u/2082947/3697b340-3b30-49bb-a137-d5bd843f35d2";
+
   services=[
     {title:'Wedding Events', description:'', background:'https://timeskerala.com/wp-content/uploads/2017/10/50747Love-Marriage-Specialist.png'},
     {title:'Birthdays', description:'', background:'http://royalpalmocc.com.sg/wp-content/uploads/2017/03/Events-Birthday-Parties.png'},
